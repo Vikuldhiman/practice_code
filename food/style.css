@@ -1,0 +1,11 @@
+.red{
+    color: red;
+}
+.food-card{
+    border: 1px solid lightgrey ;
+    border-radius: 18 px;
+    width: 330px;
+    padding: 100px;
+    height: auto;
+
+}

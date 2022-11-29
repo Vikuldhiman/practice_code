@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100vw;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    list-style-type: none;
+    font-size: 20px;
+    padding: o.5rem 1rem;
+    padding-right: 1.5rem;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    scroll-snap-align: start;
+    align-items: center;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: white;
+}
+
+.center1 {
+    text-align: left;
+    color: black;
+    font-family: "playfair display";
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.two {
+    background: white;
+}
+
+.img img {
+    width: 570px;
+    height: 690px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.center {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: "playfair display";
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: -100px;
+}
+
+.text {
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: -100px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.paragraph {
+    text-align: center;
+    color: black;
+    margin-top: 140px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.img1 img {
+    width: 570px;
+    height: 700px;
+    float: right;
+    margin-right: -800px;
+    margin-top: 10px;
+    margin-bottom: 130px;
+}
+
+.three {
+    background: white;
+}
+
+div .menu {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 60px;
+    font-family: "playfair display";
+    font-weight: 500;
+    margin-top: -140px;
+    margin-left: -300px;
+    margin-right: -50px;
+    letter-spacing: 5px;
+}
+
+div .bread {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-family: "playfair display";
+    font-weight: 100;
+    margin-top: -20px;
+    margin-left: -460px;
+    margin-right: -50px;
+    letter-spacing: 2px;
+}
+
+div .basket {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: "playfair display";
+    margin-top: 18px;
+    margin-left: -460px;
+    margin-right: -50px;
+    letter-spacing: 1px;
+}
+
+div .honey {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-family: "playfair display";
+    font-weight: 100;
+    margin-top: 60px;
+    margin-left: -460px;
+    margin-right: -50px;
+    letter-spacing: 2px;
+}
+
+div .natural {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-family: "playfair display";
+    margin-top: 100px;
+    margin-left: -460px;
+    margin-right: -50px;
+    letter-spacing: 1px;
+}
+
+div .waffle {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-family: "playfair display";
+    font-weight: 100;
+    margin-top: 140px;
+    margin-left: -515px;
+    margin-right: -50px;
+    letter-spacing: 2px;
+}
+
+div .vanilla {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-family: "playfair display";
+    margin-top: 180px;
+    margin-left: -515px;
+    margin-right: -50px;
+    letter-spacing: 1px;
+}
+
+div .egg {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-family: "playfair display";
+    font-weight: 100;
+    margin-top: 240px;
+    margin-left: -515px;
+    margin-right: -50px;
+    letter-spacing: 2px;
+}
+
+div .roasted {
+    float: left;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-family: "playfair display";
+    margin-top: 280px;
+    margin-left: -515px;
+    margin-right: -50px;
+    letter-spacing: 1px;
+}
+
+.four {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+}
+
+.four .content {
+    width: 90vw;
+    height: 95vh;
+}
+
+.four .content h3 {
+    padding: 0rem 1rem;
+}
+
+.four .content h1 {
+    padding: 1.5rem;
+    color: darkgreen;
+    font-family: "playfair display";
+    font-size: 35px;
+}
+
+.four .content form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.four .content form input {
+    padding: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.four .content button {
+    padding: 1.5rem;
+    width: 15%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 22px;
+    margin-left: 80px;
+}
+
+.four .content form input:placeholder-shown {
+    font-weight: bold;
+    font-size: 1rem;
+}

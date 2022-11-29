@@ -1,0 +1,95 @@
+body {
+    margin:0;
+    padding:0;
+}
+#head {
+position: fixed;
+background-color: beige;
+width: 100%;
+box-shadow: 0px 2px 5px;
+}
+#head a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+    padding: 6px;
+    margin: 8px;
+}
+#head-right {
+    float: right;
+}
+#home h1 {
+    position: absolute;
+    bottom: 250px;
+    left: 420px;
+    color: rgb(11, 7, 7);
+}
+#home h5 {
+   position: absolute;
+   top: 750px;
+   left: 2px;
+   font-size: large;
+   color: rgba(23, 21, 21, 0.802);
+}
+#middle h1 {
+    font-style: oblique;
+    color: rgb(250, 217, 175);
+    background-color: rgb(23, 23, 89);
+    width: 100%;
+}
+#middle p {
+ font-size: large;
+}
+#mid-about {
+    position: static;
+}
+#mid-about h3 {
+    background-color: rgb(190, 225, 225);
+
+}
+#mid-about p {
+    color: black;
+}
+#mid-cont {
+    padding: 5px 50px;
+}
+#mid-cont h2 {
+    font-size: 50px;
+    color: rgb(5, 5, 39);
+}
+#mid-about .palm
+{
+    /* font-size: 50px; */
+    margin-top: -1px;
+}
+#mid-cont p {
+    font-size: 20px;
+}
+#mid-cont input[type="text"], #mid-cont input[type="date"] {
+width: 100%;
+border: none;
+border-bottom: 1px solid gray;
+font-size: 15px;
+padding: 15px;
+margin-bottom: 10px;
+}
+button {
+    border: none;
+    background-color: rgb(34, 30, 30);
+    font-family: serif;
+    font-family: 15px;
+    padding: 10px;
+    margin: 2px;
+    color:white;
+}
+#footer {
+    padding: 40px;
+    background-color: rgb(73, 69, 69);
+    text-align: center;
+    color:white;
+}
+@media screen (max-width:320px) {
+    
+    
+}
